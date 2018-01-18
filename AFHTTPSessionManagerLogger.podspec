@@ -4,8 +4,8 @@ Pod::Spec.new do |s|
   s.license  = 'MIT'
   s.authors  = { 'Kim Huang' => 'kim4apple@qq.com' }
   s.summary  = 'AFNetworking Extension for request logging.'
-  s.homepage = 'https://github.com/kim4apple/AFHTTPSessionManagerLogger'
-  s.source   = { :git => 'https://github.com/kim4apple/AFHTTPSessionManagerLogger.git', :tag => s.version }
+  s.homepage = 'https://github.com/jprothwell/AFHTTPSessionManagerLogger'
+  s.source   = { :git => 'https://github.com/jprothwell/AFHTTPSessionManagerLogger.git', :tag => s.version }
   s.requires_arc = true
 
   s.dependency 'AFNetworking', '>= 3.0'
